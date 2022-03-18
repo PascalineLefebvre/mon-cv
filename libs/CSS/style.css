@@ -1,0 +1,132 @@
+/*.exp {
+border: 2px solid grey;
+border-radius: 5px;
+width: 300px;
+height: 550px;
+background-color: white;
+padding: 10px;
+}
+
+.comp {
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    padding: 10px;
+    }
+
+    .form {
+        border: 2px solid grey;
+        background-color: white;
+        border-radius: 5px;
+        width: 300px;
+        height: 550px;
+        padding: 10px;
+        }
+
+.container {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #e8e8e4;
+
+}
+
+.blocs {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#header{
+    height:120px;
+    background:#0a9396;
+    font-size:xx-large;
+    margin-bottom: 30px;
+    text-align: left;
+    line-height: 100px;
+    }
+
+.photo {
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin-right: 100px;
+        margin-top: 10px;
+    }
+
+.logo {width: 50px;
+        height: 50px;
+}
+*/
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  font-family: calibri;
+  text-align: justify;
+}
+
+.section {
+  width: 30%;
+  border: 1px solid black;
+  padding: 15px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.411);
+}
+/*body{
+    margin:100px;
+    }
+*/
+#bandeau {
+  height: auto;
+  background: #f28482;
+  font-family: calibri;
+  font-size: xx-large;
+  line-height: 120px;
+  padding: 15px;
+}
+
+.photo {
+  -webkit-transition: -webkit-transform 0.9s;
+  -moz-transition: -moz-transform 0.9s;
+  -o-transition: -o-transform 0.9s;
+  -ms-transition: -ms-transform 0.9s;
+  transition: transform 0.9s;
+}
+.photo:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.photo {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.illicado {
+  height: width: 100px;
+  display: flex;
+  margin: auto;
+}
+
+@media screen and (max-width: 700px) and (min-width:300px) {
+ .container{
+     flex-direction: column;
+     width: 100%;
+ }
+ .section{
+     margin-top: 2%;
+     width: 80%;
+ }
+ #bandeau{
+     font-size: medium;
+ }
+}
+
+img{width: 100px;
+	height: auto;
+}
